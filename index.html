@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .success,
+      .error {
+        color: white;
+        padding: 5px;
+        margin: 5px 0 15px 0;
+      }
+      .success {
+        background-color: green;
+      }
+
+      .error {
+        background-color: red;
+      }
+    </style>
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo">
+        <img class="logo-img" src="./img/odin-lined.png" alt="" />
+        <h2>ODIN</h2>
+      </div>
+      <p class="logo-text">Photo by Halie West on Unsplash</p>
+    </div>
+
+    <div class="main">
+      <div class="main-text">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. <br />
+          Sign up <i>now</i> to get started.
+        </p>
+        <p>You <i>know</i> you want to</p>
+      </div>
+      <div class="card">
+        <h3>Let's do this!</h3>
+        <form action="" class="form">
+          <div class="form-field">
+            <label for="fname">FIRST NAME</label><br />
+            <input type="text" id="fname" />
+          </div>
+          <div class="form-field">
+            <label for="lname">LAST NAME</label><br />
+            <input type="text" id="lname" />
+          </div>
+          <div class="form-field">
+            <label for="email">EMAIL ADDRESS</label><br />
+            <input type="email" id="emailadd" />
+          </div>
+          <div class="form-field">
+            <label for="pnumber">PHONE NUMBER</label><br />
+            <input type="tel" id="pnumber" />
+          </div>
+          <div class="form-field">
+            <label for="psd">PASSWORD</label><br />
+            <input type="password" id="psd" />
+          </div>
+          <div class="form-field">
+            <label for="cpsd">CONFIRM PASSWORD</label><br />
+            <input type="password" value="" id="cpsd" />
+          </div>
+          <p class="input-text"> * Password must contain at least 1 uppercase letter, 1 lowercase letter, 1 number, 1 symbol and must be between 8 to 15 characters</p>
+        </form>
+      </div>
+
+      <div class="footer">
+        <input type="button" value="Create Account" id="button" /><br /><br />
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
