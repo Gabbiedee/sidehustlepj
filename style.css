@@ -148,3 +148,103 @@ input[type="button"] {
   color: #596d48;
   text-decoration: none;
 }
+
+@media (min-width: 280px) and (max-width: 680px) {
+  body{
+   display: block;
+  }
+
+  .sidebar{
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+  }
+
+  .main-text {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  form {
+    display: block;
+    
+  }
+  .main-text p {
+    margin: 10px 20px;
+    text-align: start;
+  }
+
+  .card {
+    padding: 0 30px;
+    height: 500px;
+  }
+
+  form input {
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+  }
+
+  .footer {
+    padding: 10px 30px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+  }
+
+  .logo-text{
+    display: none;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1024px){
+
+  .sidebar{
+   min-width: 30%;
+  }
+  .card {
+    height: 700px;
+    font-size: 32px;
+    justify-content: flex-start;
+    padding: 20px 50px;
+  }
+
+  .main-text {
+    height: 400px;
+    font-size: 32px;
+  }
+
+  form {
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  .form-field {
+    margin: 20px 0;
+  }
+  
+
+  form input {
+    height: 40px;
+  }
+  
+  .main-text p {
+    margin: 10px 50px;
+  }
+
+  .input-text{
+    font-size: 20px;
+    display: block;
+
+  }
+}
